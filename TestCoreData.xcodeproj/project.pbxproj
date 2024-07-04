@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851594F72C36BAFF00C21D7E /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851594F62C36BAFF00C21D7E /* ListViewModel.swift */; };
+		851594F92C36BB2600C21D7E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851594F82C36BB2600C21D7E /* Model.swift */; };
+		851594FF2C36BE4600C21D7E /* DocumentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851594FD2C36BE4600C21D7E /* DocumentTableViewCell.swift */; };
+		851595002C36BE4600C21D7E /* DocumentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851594FE2C36BE4600C21D7E /* DocumentTableViewCell.xib */; };
+		851595022C36D15C00C21D7E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851595012C36D15C00C21D7E /* Constants.swift */; };
+		851595052C36D25200C21D7E /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851595042C36D25200C21D7E /* UITableViewCell.swift */; };
+		851595082C36DE2900C21D7E /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 851595072C36DE2900C21D7E /* SDWebImage */; };
+		8515950B2C36EB3E00C21D7E /* SVProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 8515950A2C36EB3E00C21D7E /* SVProgressHUD */; };
+		8515950F2C36F45700C21D7E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8515950E2C36F45700C21D7E /* CoreDataManager.swift */; };
 		859866ED2C36B84B004974FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859866EC2C36B84B004974FE /* AppDelegate.swift */; };
 		859866EF2C36B84B004974FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859866EE2C36B84B004974FE /* SceneDelegate.swift */; };
-		859866F12C36B84B004974FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859866F02C36B84B004974FE /* ViewController.swift */; };
-		859866F42C36B84B004974FE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 859866F32C36B84B004974FE /* Base */; };
 		859866F72C36B84B004974FE /* TestCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 859866F52C36B84B004974FE /* TestCoreData.xcdatamodeld */; };
 		859866F92C36B850004974FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859866F82C36B850004974FE /* Assets.xcassets */; };
 		859866FC2C36B850004974FE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 859866FB2C36B850004974FE /* Base */; };
 		859867072C36B851004974FE /* TestCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859867062C36B851004974FE /* TestCoreDataTests.swift */; };
 		859867112C36B851004974FE /* TestCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859867102C36B851004974FE /* TestCoreDataUITests.swift */; };
 		859867132C36B851004974FE /* TestCoreDataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859867122C36B851004974FE /* TestCoreDataUITestsLaunchTests.swift */; };
+		859867212C36B945004974FE /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8598671F2C36B945004974FE /* ListViewController.swift */; };
+		859867222C36B945004974FE /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 859867202C36B945004974FE /* ListViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		851594F62C36BAFF00C21D7E /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		851594F82C36BB2600C21D7E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		851594FD2C36BE4600C21D7E /* DocumentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewCell.swift; sourceTree = "<group>"; };
+		851594FE2C36BE4600C21D7E /* DocumentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentTableViewCell.xib; sourceTree = "<group>"; };
+		851595012C36D15C00C21D7E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		851595042C36D25200C21D7E /* UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		8515950E2C36F45700C21D7E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		859866E92C36B84B004974FE /* TestCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		859866EC2C36B84B004974FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		859866EE2C36B84B004974FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		859866F02C36B84B004974FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		859866F32C36B84B004974FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		859866F62C36B84B004974FE /* TestCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestCoreData.xcdatamodel; sourceTree = "<group>"; };
 		859866F82C36B850004974FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		859866FB2C36B850004974FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +65,8 @@
 		8598670C2C36B851004974FE /* TestCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		859867102C36B851004974FE /* TestCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoreDataUITests.swift; sourceTree = "<group>"; };
 		859867122C36B851004974FE /* TestCoreDataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoreDataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8598671F2C36B945004974FE /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		859867202C36B945004974FE /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8515950B2C36EB3E00C21D7E /* SVProgressHUD in Frameworks */,
+				851595082C36DE2900C21D7E /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		851594FA2C36BDF300C21D7E /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				851594FD2C36BE4600C21D7E /* DocumentTableViewCell.swift */,
+				851594FE2C36BE4600C21D7E /* DocumentTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		851594FB2C36BDFE00C21D7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				851594F82C36BB2600C21D7E /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		851594FC2C36BE0A00C21D7E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8598671F2C36B945004974FE /* ListViewController.swift */,
+				859867202C36B945004974FE /* ListViewController.xib */,
+				851594F62C36BAFF00C21D7E /* ListViewModel.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		851595032C36D23300C21D7E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				851595042C36D25200C21D7E /* UITableViewCell.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		859866E02C36B84B004974FE = {
 			isa = PBXGroup;
 			children = (
@@ -103,8 +156,12 @@
 			children = (
 				859866EC2C36B84B004974FE /* AppDelegate.swift */,
 				859866EE2C36B84B004974FE /* SceneDelegate.swift */,
-				859866F02C36B84B004974FE /* ViewController.swift */,
-				859866F22C36B84B004974FE /* Main.storyboard */,
+				851594FC2C36BE0A00C21D7E /* ViewControllers */,
+				851594FB2C36BDFE00C21D7E /* Model */,
+				851594FA2C36BDF300C21D7E /* TableViewCells */,
+				851595032C36D23300C21D7E /* Extensions */,
+				851595012C36D15C00C21D7E /* Constants.swift */,
+				8515950E2C36F45700C21D7E /* CoreDataManager.swift */,
 				859866F82C36B850004974FE /* Assets.xcassets */,
 				859866FA2C36B850004974FE /* LaunchScreen.storyboard */,
 				859866FD2C36B850004974FE /* Info.plist */,
@@ -146,6 +203,10 @@
 			dependencies = (
 			);
 			name = TestCoreData;
+			packageProductDependencies = (
+				851595072C36DE2900C21D7E /* SDWebImage */,
+				8515950A2C36EB3E00C21D7E /* SVProgressHUD */,
+			);
 			productName = TestCoreData;
 			productReference = 859866E92C36B84B004974FE /* TestCoreData.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +279,10 @@
 				Base,
 			);
 			mainGroup = 859866E02C36B84B004974FE;
+			packageReferences = (
+				851595062C36DE2900C21D7E /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				851595092C36EB3E00C21D7E /* XCRemoteSwiftPackageReference "SVProgressHUD" */,
+			);
 			productRefGroup = 859866EA2C36B84B004974FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,9 +299,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851595002C36BE4600C21D7E /* DocumentTableViewCell.xib in Resources */,
 				859866F92C36B850004974FE /* Assets.xcassets in Resources */,
 				859866FC2C36B850004974FE /* Base in Resources */,
-				859866F42C36B84B004974FE /* Base in Resources */,
+				859867222C36B945004974FE /* ListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851595052C36D25200C21D7E /* UITableViewCell.swift in Sources */,
+				851594F72C36BAFF00C21D7E /* ListViewModel.swift in Sources */,
 				859866F72C36B84B004974FE /* TestCoreData.xcdatamodeld in Sources */,
-				859866F12C36B84B004974FE /* ViewController.swift in Sources */,
 				859866ED2C36B84B004974FE /* AppDelegate.swift in Sources */,
+				851594F92C36BB2600C21D7E /* Model.swift in Sources */,
+				859867212C36B945004974FE /* ListViewController.swift in Sources */,
 				859866EF2C36B84B004974FE /* SceneDelegate.swift in Sources */,
+				851594FF2C36BE4600C21D7E /* DocumentTableViewCell.swift in Sources */,
+				8515950F2C36F45700C21D7E /* CoreDataManager.swift in Sources */,
+				851595022C36D15C00C21D7E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +373,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		859866F22C36B84B004974FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				859866F32C36B84B004974FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		859866FA2C36B850004974FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -450,7 +514,6 @@
 				INFOPLIST_FILE = TestCoreData/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,6 +523,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = vineeth.TestCoreData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,7 +544,6 @@
 				INFOPLIST_FILE = TestCoreData/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -487,6 +553,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = vineeth.TestCoreData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -605,6 +675,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		851595062C36DE2900C21D7E /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.4;
+			};
+		};
+		851595092C36EB3E00C21D7E /* XCRemoteSwiftPackageReference "SVProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVProgressHUD/SVProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		851595072C36DE2900C21D7E /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 851595062C36DE2900C21D7E /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		8515950A2C36EB3E00C21D7E /* SVProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 851595092C36EB3E00C21D7E /* XCRemoteSwiftPackageReference "SVProgressHUD" */;
+			productName = SVProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		859866F52C36B84B004974FE /* TestCoreData.xcdatamodeld */ = {
