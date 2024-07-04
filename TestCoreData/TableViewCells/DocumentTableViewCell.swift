@@ -22,7 +22,7 @@ final class DocumentTableViewCell: UITableViewCell {
     func configureItem(item: UserDocument) {
         titleLabel.text = item.title
         discriptionLabel.text = item.discription
-        documentImageView.sd_setImage(with: item.url, placeholderImage: UIImage(named: "placeholder"))
+        documentImageView.sd_setImage(with: item.url, placeholderImage: UIImage(named: placeHolderImage))
         date.text = item.date
     }
 }
